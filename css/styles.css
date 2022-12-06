@@ -202,13 +202,6 @@ td {
 	font-family: 'Arial', sans-serif;	
 	font-size: 15px;
 }
-
-#pagination {
-	display: flex;
-	font-size: 10px;
-        flex-direction: row;
-        justify-content: center;
-}
 /*fin de tabla*/
 
 /*inicio redes y contactos*/
@@ -438,16 +431,6 @@ td {
         height: 20px;
 		width: 100px;
 		justify-content: center;
-	}
-
-}
-
-@media screen and (max-width:320px) {
-	#pagination {
-		display: flex;
-        text-align: left;
-		font-size: 10px;
-		
 	}
 
 }
