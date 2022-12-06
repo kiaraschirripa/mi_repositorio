@@ -202,6 +202,14 @@ td {
 	font-family: 'Arial', sans-serif;	
 	font-size: 15px;
 }
+
+#pagination {
+	display: flex;
+        text-align: left;
+	font-size: 10px;
+        flex-direction: column;
+        justify-content: center;
+}
 /*fin de tabla*/
 
 /*inicio redes y contactos*/
@@ -381,7 +389,7 @@ td {
 @media screen and (max-width:320px) {
 	.redes {
 		display: flex;
-        text-align: left;
+     	   	text-align: left;
 		font-size: 10px;
 		border-width: 0px;
 		padding-bottom: 10px;
@@ -410,18 +418,6 @@ td {
 	}
 
 }
-/*
-@media screen and (max-width:320px) {
-	.contactos {
-		display: flex;
-		text-align: left;
-		flex-direction: column;
-		font-size: 10px;
-		height: 20px;
-		width: 60px;
-	}
-
-}*/
 
 @media screen and (max-width:320px) {
 	#form {
