@@ -73,6 +73,7 @@ html {
 	display: flex;  
 	flex-direction: row; 
 	flex-wrap: wrap;
+    font-size: 10px;
 	justify-content: flex-start;
 	align-items: center;
 }
@@ -81,11 +82,6 @@ ul li {
 	display: inline;
 }
 
-.menuContent {
-	color: 	#eacfe8;
-	font-size: 20px;
-	justify-content: space-between;
-}
 
 /*fin header y menu*/
 
@@ -200,7 +196,7 @@ td {
 .canciones {
 	color: grey;
 	font-family: 'Arial', sans-serif;	
-	font-size: 15px;
+	font-size: 10px;
 }
 /*fin de tabla*/
 
@@ -261,15 +257,6 @@ td {
 /*fin footer*/
 
 /*inicio media mobile*/
-@media screen and (max-width:320px) {
-	.menuContent {
-		display: flex;
-		flex-direction: column;
-		font-size: 10px;
-		text-align: left;
-	}
-
-}
 
 @media screen and (max-width:320px) {
 	.div {
@@ -302,10 +289,61 @@ td {
 }
 
 @media screen and (max-width:320px) {
+	.nav-link {
+		display: flex;
+        font-size: 5px;
+        text-align: left;
+        padding: 0.2rem 0rem;
+        width: 280px;
+	}
+
+}
+
+@media screen and (max-width:320px) {
+	table {
+		display: flex;
+        font-size: 5px;
+        text-align: left;
+        padding: 0.2rem 0rem;
+        width: 100px;
+	}
+    
+    th {
+        color: 	#1b2f55;
+        font-family: 'Arial', sans-serif;	
+        font-size: 10px;
+    }
+    
+    td { 
+        color: #284377;
+        font-family: 'Arial', sans-serif;	
+        font-size: 10px;
+        padding: 5px;
+    
+    }
+    
+    .canciones {
+        color: grey;
+        font-family: 'Arial', sans-serif;	
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+	.card {
+		display: flex;
+        font-size: 10px;
+	}
+
+}
+
+@media screen and (max-width:320px) {
 	#header {
 		display: flex;
-		width: 320px;
-		height: 100px;
+		width: 100px;
+		height: 150px;
+        font-size: 10px;
 	}
 }
 
