@@ -221,6 +221,20 @@ td {
 	justify-content: flex-start;
 	flex-direction: row;
 }
+
+#redes {
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    flex-direction: column;
+}
+
+#redes2 {
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    flex-direction: column;
+}
 /*fin redes y contactos*/
 
 /*inicio footer*/
@@ -419,7 +433,7 @@ td {
 @media screen and (max-width:320px) {
 	.redes {
 		display: flex;
-     	   	text-align: left;
+     	text-align: left;
 		font-size: 10px;
 		border-width: 0px;
 		padding-bottom: 10px;
