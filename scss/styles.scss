@@ -1,16 +1,32 @@
-div{
-    display: flex;
-}
 
-ul {
- list-style: none;
- 	 li {
-   		padding: 15px;
-   		display: inline-block;
-  	       a {
-    		     text-decoration: none;
-   	                 font-size: 16px;
-    		     color: #444;
-   	      }
-             }
+/*inicio sass*/
+@mixin imgindex(){
+    border: 2px solid rgb(42, 42, 42);
+    padding-top: 20px;
+	padding-bottom: 30px;  
 }
+.discografia1{
+	@include imgindex();
+    border-radius: 10px; 	
+}
+$estilos:(
+    color:black,
+    ancho:500px,
+    tFuente: 20px,
+    centro:center,
+    bordes:10px,
+);
+
+.discografia1{
+	width: map-get($map: $estilos, $key:tamaño );
+	height: map-get($map: $estilos, $key:ancho );
+	border-radius: map-get($map: $estilos, $key:bordes );
+	}
+	.info{
+		font-size: map-get($map: $estilos, $key:tFuente );
+		color: map-get($map: $estilos, $key:color );
+	}
+
+/*fin sass*/
+
+
