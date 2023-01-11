@@ -204,6 +204,14 @@ td {
   padding: 25px;
 }
 
+.discografia1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid rgb(42, 42, 42);
+}
+
 .canciones {
   color: grey;
   font-family: "Arial", sans-serif;
@@ -869,3 +877,4 @@ td {
 /*fin de media tablet*/
 
 /*# sourceMappingURL=styles.css.map */
+ 
